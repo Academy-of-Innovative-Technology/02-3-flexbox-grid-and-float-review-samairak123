@@ -12,7 +12,6 @@
 /* Float Section */
 .float-section {
     float: left;
-    /* Apply step 1 here */
 }
 
 .clear-float {
@@ -27,14 +26,14 @@ justify-content: space-around;
 }
 
 .flex-item {
-    /* Apply step 4 here */
- 
+    align-self: center;
 
 }
 
 /* Grid Section */
 .grid-section {
   height: 300px;
+  display: grid;
   grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
 }
@@ -43,32 +42,26 @@ justify-content: space-around;
   
 }
 .grid-item-1{
-    grid-column-start:1 ;
-     grid-column-end:  2;
-    grid-row:1;
+    grid-row: 1;
+grid-column: 1 / 2;
 }
 .grid-item-2{
-    grid-column-start:2 ;
-     grid-column-end:  3;
-    grid-row:2;
+    grid-row: 2;
+grid-column: 2 / 3;
 }
 .grid-item-3{
-    grid-column-start:3;
-     grid-column-end:  4;
-    grid-row:3;
+    grid-row: 3;
+grid-column: 3 / 4;
 }
 .grid-item-4{
-    grid-column-start:4 ;
-     grid-column-end:  5;
-    grid-row:4;
+    grid-row: 4;
+grid-column: 4 / 5;
 }
 .grid-item-5{
-    grid-column-start:5 ;
-     grid-column-end:  6;
-    grid-row:5;
+    grid-row: 5;
+grid-column: 5 / 6;
 }
 .grid-item-6{
-    grid-column-start:6 ;
-     grid-column-end:  7;
-    grid-row:6;
+    grid-row: 6;
+grid-column: 6 / 7;
 }
